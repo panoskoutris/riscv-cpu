@@ -47,7 +47,7 @@ Implements core RISC-V instructions:
 - **ALU and Calculator** are tested using a variety of input combinations.
 - **FSM CPU Execution** is verified using an instruction ROM and RAM, observing program counter, memory addresses, and write-back data.
 - Waveforms and output logs confirm correct instruction decoding, branching, and memory access.
-- Results included in [`report/Αναφορά.pdf`](./report/Αναφορά.pdf).
+- Results included in [`report.pdf`](./report.pdf).
 
 ---
 
@@ -55,35 +55,27 @@ Implements core RISC-V instructions:
 
 ```
 riscv-cpu/
-├── alu.v
-├── calc.v
-├── calc_enc.v
-├── calc_tb.v
-├── regfile.v
-├── datapath.v
-├── top_proc.v
-├── top_proc_tb.v
-├── report.pdf                
-└── README.md
+├── alu.v # Arithmetic Logic Unit (ALU)
+├── calc.v # Calculator with 16-bit accumulator
+├── calc_enc.v # Encoder for ALU control signals
+├── calc_tb.v # Testbench for the calculator module
+├── datapath.v # RISC-V datapath
+├── ram.v # Data memory module
+├── regfile.v # 32-register file module
+├── report.pdf # Final report with results, waveforms, FSM diagram
+├── rom.v # Instruction memory module
+├── rom_bytes.data # Memory initialization file for ROM
+├── top_proc.v # Top-level module with FSM controller
+├── top_proc_tb.v # Full system testbench
+└── README.md # Project description and documentation
 
 ```
-
----
-
-## 📈 What I Learned
-
-- Designing **modular digital systems** using Verilog
-- Applying **FSMs** for multicycle CPU control
-- Understanding **instruction decoding** and datapath flow
-- Creating thorough **testbenches** and debugging using simulation waveforms
-- Mapping **theoretical ISA concepts** to real hardware implementations
-
 ---
 
 ## 👤 Author
 
 **Παναγιώτης Κούτρης**   
-Email: *[your.email@example.com]* (optional)  
+Email: *pkoutris@ece.auth.gr* (optional)  
 School of Electrical & Computer Engineering, AUTH
 
 ---
