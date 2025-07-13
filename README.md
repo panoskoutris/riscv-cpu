@@ -30,15 +30,21 @@ Implements core RISC-V instructions:
 
 ### ✅ Components
 
-| Module         | Description |
-|----------------|-------------|
-| `alu.v`        | 32-bit ALU with support for arithmetic, logical, and shift operations |
-| `calc.v`       | Calculator with a 16-bit accumulator using the ALU |
-| `calc_enc.v`   | Logic encoder to generate `alu_op` control signals from buttons |
-| `regfile.v`    | 32x32-bit Register File with 2 read ports, 1 write port |
-| `datapath.v`   | Full RISC-V datapath including PC, ALU, immediate generator, memory interface |
-| `top_proc.v`   | Top-level processor module with FSM controller (5 stages: IF, ID, EX, MEM, WB) |
-| `*_tb.v`       | Testbenches for simulation and validation of all modules |
+## 📦 Components
+
+| Module             | Description |
+|--------------------|-------------|
+| `alu.v`            | 32-bit ALU with support for arithmetic, logical, and shift operations |
+| `calc.v`           | Calculator with a 16-bit accumulator using the ALU |
+| `calc_enc.v`       | Logic encoder to generate `alu_op` control signals from buttons |
+| `regfile.v`        | 32×32-bit Register File with 2 read ports, 1 write port |
+| `datapath.v`       | Full RISC-V datapath including PC, ALU, immediate generator, memory interface |
+| `top_proc.v`       | Top-level processor module with FSM controller (5 stages: IF, ID, EX, MEM, WB) |
+| `ram.v`            | Simple RAM module used for data memory |
+| `rom.v`            | ROM module used for instruction memory |
+| `rom_bytes.data`   | ROM initialization file with encoded RISC-V instructions |
+| `*_tb.v`           | Testbenches for simulation and validation of all modules |
+
 
 ---
 
@@ -72,11 +78,11 @@ riscv-cpu/
 ```
 ---
 
-## 👤 Author
+## ✍️ Author
 
-**Παναγιώτης Κούτρης**   
-Email: *pkoutris@ece.auth.gr* (optional)  
-School of Electrical & Computer Engineering, AUTH
+**Panos Koutris**  
+[pkoutris@ece.auth.gr](mailto:pkoutris@ece.auth.gr)  
+Student at AUTh – School of Electrical & Computer Engineering
 
 ---
 
