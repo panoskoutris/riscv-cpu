@@ -5,9 +5,10 @@ Implements a five-stage FSM controller, datapath, ALU, register file, and memory
 
 ## 🚀 Overview
 
-This project was developed as part of the **Digital Hardware Systems I** (Ψηφιακά HW 1) course at the **Aristotle University of Thessaloniki** (AUTH), School of Electrical & Computer Engineering.
-
 The goal was to implement a simplified but realistic **RISC-V processor**, built incrementally from core components like the ALU and register file, up to a complete multicycle CPU architecture with instruction and data memory.
+
+
+This project was developed as part of the **Digital Hardware Systems I** (Ψηφιακά HW 1) course at the **Aristotle University of Thessaloniki** (AUTH), School of Electrical & Computer Engineering.
 
 ## 🛠️ Technologies Used
 
