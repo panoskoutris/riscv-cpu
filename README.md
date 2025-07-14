@@ -14,7 +14,7 @@ This project was developed as part of the **Digital Hardware Systems I** (Ψηφ
 
 - **Verilog HDL** – Hardware description and module design
 - **Tools & Simulators** – EDA Playground & Icarus Verilog 12.0 
-- **RISC-V ISA** – Instruction decoding and execution
+- **Instruction Set Architecture** - RISC-V Instruction Set Manual, Volume I: Unprivileged ISA, Document Version 20191213
 
 ---
 
