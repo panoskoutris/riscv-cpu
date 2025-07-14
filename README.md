@@ -10,12 +10,10 @@ The goal was to implement a simplified but realistic **RISC-V processor**, built
 
 This project was developed as part of the **Digital Hardware Systems I** (Ψηφιακά HW 1) course at the **Aristotle University of Thessaloniki** (AUTH), School of Electrical & Computer Engineering.
 
-## 🛠️ Technologies Used
+## 🛠️ Resources Used
 
 - **Verilog HDL** – Hardware description and module design
-- **FSM Design** – Finite State Machine for multicycle control
-- **Modular Architecture** – ALU, register file, datapath, controller
-- **Simulation & Debugging** – Custom testbenches for functional verification
+- **Tools & Simulators** – EDA Playground & Icarus Verilog 12.0 
 - **RISC-V ISA** – Instruction decoding and execution
 
 ---
