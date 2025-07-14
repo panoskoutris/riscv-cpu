@@ -86,6 +86,6 @@ Student at AUTh – School of Electrical & Computer Engineering
 ---
 
 ## 📝 License
-This project is provided for academic and educational purposes only.
+This project is intended for educational use. Contact me before using it commercially or in published work.
 
 
