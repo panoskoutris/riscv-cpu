@@ -60,19 +60,25 @@ Implements core RISC-V instructions:
 
 ```
 riscv-cpu/
-├── alu.v # Arithmetic Logic Unit (ALU)
-├── calc.v # Calculator with 16-bit accumulator
-├── calc_enc.v # Encoder for ALU control signals
-├── calc_tb.v # Testbench for the calculator module
-├── datapath.v # RISC-V datapath
-├── ram.v # Data memory module
-├── regfile.v # 32-register file module
-├── report.pdf # Final report with results, waveforms, FSM diagram
-├── rom.v # Instruction memory module
-├── rom_bytes.data # Memory initialization file for ROM
-├── top_proc.v # Top-level module with FSM controller
-├── top_proc_tb.v # Full system testbench
-└── README.md # Project description and documentation
+├── src/               ← Verilog modules
+│   ├── alu.v
+│   ├── calc.v
+│   ├── calc_enc.v
+│   ├── datapath.v
+│   ├── ram.v
+│   ├── regfile.v
+│   ├── rom.v
+│   └── top_proc.v
+│
+├── tb/                ← Testbenches
+│   ├── calc_tb.v
+│   └── top_proc_tb.v
+│
+├── data/              ← Data files for ROM
+│   └── rom_bytes.data
+│
+├── report.pdf
+└── README.md
 
 ```
 ---
