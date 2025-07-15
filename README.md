@@ -60,7 +60,7 @@ Implements core RISC-V instructions:
 
 ```
 riscv-cpu/
-├── src/               ← Verilog modules
+├── src/               ← Core HDL design files
 │   ├── alu.v
 │   ├── calc.v
 │   ├── calc_enc.v
