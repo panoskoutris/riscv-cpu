@@ -29,7 +29,7 @@ Implements core RISC-V instructions:
 
 ###  Components
 
-## 📦 Components
+##  Components
 
 | Module             | Description |
 |--------------------|-------------|
