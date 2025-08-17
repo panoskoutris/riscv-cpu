@@ -3,14 +3,14 @@
 A fully functional RISC-V compatible multicycle CPU built in Verilog.  
 Implements a five-stage FSM controller, datapath, ALU, register file, and memory interface, with complete testbenches for simulation and verification.
 
-## 🚀 Overview
+##  Overview
 
 The goal was to implement a simplified but realistic **RISC-V processor**, built incrementally from core components like the ALU and register file, up to a complete multicycle CPU architecture with instruction and data memory.
 
 
 This project was developed as part of the **Low-Level Digital HW Systems I** course at the **Aristotle University of Thessaloniki** (AUTH), School of Electrical & Computer Engineering.
 
-## 🛠️ Resources Used
+##  Resources Used
 
 - **Verilog HDL** – Hardware description and module design
 - **Tools & Simulators** – EDA Playground & Icarus Verilog 12.0 
@@ -18,16 +18,16 @@ This project was developed as part of the **Low-Level Digital HW Systems I** cou
 
 ---
 
-## 📦 Features
+##  Features
 
-### ✅ Instruction Support
+###  Instruction Support
 Implements core RISC-V instructions:
 - **Register-Register:** `ADD`, `SUB`, `AND`, `OR`, `XOR`, `SLT`, `SLL`, `SRL`, `SRA`
 - **Immediate:** `ADDI`, `ANDI`, `ORI`, `XORI`, `SLTI`, `SLLI`, `SRLI`, `SRAI`
 - **Memory:** `LW`, `SW`
 - **Branch:** `BEQ`
 
-### ✅ Components
+###  Components
 
 ## 📦 Components
 
@@ -47,7 +47,7 @@ Implements core RISC-V instructions:
 
 ---
 
-## 🧪 Simulation & Results
+##  Simulation & Results
 
 - **ALU and Calculator** are tested using a variety of input combinations.
 - **FSM CPU Execution** is verified using an instruction ROM and RAM, observing program counter, memory addresses, and write-back data.
@@ -56,7 +56,7 @@ Implements core RISC-V instructions:
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 riscv-cpu/
@@ -83,7 +83,7 @@ riscv-cpu/
 ```
 ---
 
-## ✍️ Author
+##  Author
 
 **Panagiotis Koutris**  
 Student at AUTh – School of Electrical & Computer Engineering
