@@ -86,7 +86,7 @@ riscv-cpu/
 ##  Author
 
 **Panagiotis Koutris**  
-Student at AUTh – School of Electrical & Computer Engineering
+Undergraduate at AUTh – School of Electrical & Computer Engineering
 
 ---
 
